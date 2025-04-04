@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>formulario 2</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .header {
+            background-image: url(img/billie.jfif);
+            color: white;
+            padding: 50px ;
+            text-align: center;
+            font-size: 30PX;
+        }
+    }
+        .borde {
+            border: 20px solid #dbd5d5; 
+            padding: 10px;          
+            display: inline-block; 
+        }
+        .nav {
+            display: flex;
+            justify-content: center;
+            background-color: hsl(16, 50%, 25%);
+        }
+        .nav a {
+            color: rgb(174, 140, 140);
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        .nav a:hover {
+            background-color: hsl(0, 42%, 6%);
+       : flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .main-content,
+        .sidebar {
+            border: 8px solid #000; 
+            padding: 60px;
+            background: rgb(56, 23, 11);
+            text-align: LEFT;
+            color: aliceblue;
+            text-align: justify;
+           
+          
+        }
+        .main-content {
+          background: hwb(15 29% 57%);
+            width: 20%;
+           color: antiquewhite;
+            float: right;
+            text-align: justify;
+        }
+        .sidebar {
+            width: 30%;
+           
+        }
+
+        iframe {
+            border: none;
+            width: 30px;
+            height: 30px;
+            float: center;
+        }
+        
+
+        .footer {
+            background: #391a059c;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            margin-top: 20px;
+      
+        }
+    </style>
+
+
+</head>
+<body>
+    <div class="header">
+        <img src="img/ith (1).png" width="40px" float="center">
+        <h1>BILLIE EILISH</h1>
+    </div>
+
+    <div class="nav">
+        <a href="index.html">INICIO</a>
+        <a href="historia.html">HISTORIA</a>
+        <a href="estilo.html"><i>ESTILO</i></a>
+        <a href="eras.html">ERAS</a>
+        <a href="carrera.html">CARRERA MUSICAL</a>
+        <a href="negocios.html">NEGOCIOS</a>
+        <a href="formulario.html">CONTACTO</a>
+    
+    </div>
+
+
+    <form action="" method="get">
+    <p>Nombre: <input type="text" name="name_control" autofocus required /></p>
+    <p>Correo Electronico: <input type="email" name="email_control" requiredn /></p>
+    <p>URL: <input type="url" name="url_control" placeholder="Escribe la url de tu Pagina Web Personal"/></p>
+    <p>Fecha: <input type="date" name="date_control" /></p>
+    <p>Tiempo: <input type="time" name="time_control" /></p>
+    <p>Fecha: y Hora <input type="datetime" name="datetime_control" /></p>
+    <p>Mes: <input type="month" name="month_control" /> </p>
+    <p>Semana: <input type="week" name="week_control" /> </p>
+    <p>Numero (min -10, max 10): <input type="number" name="number_control" min="-10" max="10" value="0" /></p>
+    <p>Telefono: <input type="tel" name="tel_control"> </p>
+    <p>Termino de busqueda: <input type="search" name="search_control" />  </p>
+    <p>color favorito: <input type="color" name="color_control" /></p>
+    <p> <input type="submit" value="Enviar" /> </p>
+    </form>
+
+</body>
+</html>
